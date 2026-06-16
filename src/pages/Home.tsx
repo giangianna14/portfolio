@@ -15,7 +15,7 @@ export function Home() {
       
       <div className="lg:flex lg:justify-between lg:gap-4">
         {/* Left Sticky Panel */}
-        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
+        <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24 lg:overflow-y-auto" style={{ scrollbarWidth: 'none' }}>
           <LeftPanel />
         </header>
 
