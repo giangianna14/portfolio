@@ -1,0 +1,10 @@
+node_modules
+dist
+.git
+.gitignore
+.env
+.github
+README.md
+task.md
+implementation_plan.md
+walkthrough.md

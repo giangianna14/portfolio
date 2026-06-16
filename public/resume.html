@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gian Gianna Pallan Pallas - Resume</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    
+    .page {
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 60px 80px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h1, h2, h3 {
+      margin: 0;
+      color: #111;
+    }
+
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+
+    .title {
+      font-size: 18px;
+      color: #0ea5e9;
+      font-weight: 500;
+      margin-bottom: 24px;
+    }
+
+    .contact {
+      display: flex;
+      gap: 16px;
+      font-size: 13px;
+      color: #555;
+      margin-bottom: 32px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 24px;
+    }
+
+    .contact a {
+      color: #555;
+      text-decoration: none;
+    }
+
+    .section-title {
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 2px solid #0ea5e9;
+      display: inline-block;
+      margin-bottom: 16px;
+      margin-top: 32px;
+      padding-bottom: 4px;
+    }
+
+    .job {
+      margin-bottom: 24px;
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 8px;
+    }
+
+    .job-title {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    .job-company {
+      font-weight: 500;
+      color: #0ea5e9;
+    }
+
+    .job-date {
+      font-size: 13px;
+      color: #777;
+    }
+
+    .job ul {
+      margin: 0;
+      padding-left: 20px;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .job li {
+      margin-bottom: 6px;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .skill-tag {
+      background: #f0f8ff;
+      color: #0284c7;
+      padding: 4px 12px;
+      border-radius: 4px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .summary {
+      font-size: 14px;
+      color: #444;
+      margin-bottom: 32px;
+    }
+
+    /* Print settings */
+    @media print {
+      body {
+        background: white;
+      }
+      .page {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        max-width: 100%;
+      }
+      .no-print {
+        display: none;
+      }
+    }
+
+    .print-btn {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #0ea5e9;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
+      transition: background 0.2s;
+    }
+    .print-btn:hover {
+      background: #0284c7;
+    }
+  </style>
+</head>
+<body>
+
+  <button class="print-btn no-print" onclick="window.print()">Print to PDF</button>
+
+  <div class="page">
+    <h1>Gian Gianna Pallan Pallas</h1>
+    <div class="title">Software Engineer (Data Automation & Backend API)</div>
+    
+    <div class="contact">
+      <span>✉️ gian.ule@gmail.com</span>
+      <span>🔗 <a href="https://www.linkedin.com/in/giangianna/">linkedin.com/in/giangianna</a></span>
+      <span>🐙 <a href="https://github.com/giangianna14">github.com/giangianna14</a></span>
+    </div>
+
+    <div class="summary">
+      Software Engineer spesialis di otomatisasi data, pembuatan laporan dinamis, dan pengembangan backend API. Memiliki pengalaman mendalam merubah proses manual yang memakan waktu (ekstraksi data mentah, pembersihan Excel) menjadi pipeline 100% otomatis 24/7. Berpengalaman membangun infrastruktur skala besar (jutaan transaksi) dan bot pengiriman data otomatis via WhatsApp/Email.
+    </div>
+
+    <div class="section-title">Experience</div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Freelance Software Engineer</span> | 
+          <span class="job-company">Upwork & Fiverr</span>
+        </div>
+        <div class="job-date">2022 - Present</div>
+      </div>
+      <ul>
+        <li>Berkolaborasi dengan berbagai klien internasional untuk merancang solusi otomatisasi proses bisnis (BPA).</li>
+        <li>Membangun puluhan skrip Python (Pandas) untuk membersihkan, menganalisis, dan mengekspor laporan data secara otomatis.</li>
+        <li>Mengembangkan sistem Bot WhatsApp pintar menggunakan API resmi yang diintegrasikan langsung dengan database klien untuk pengiriman notifikasi/peringatan instan.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Software Engineer (Data & Backend API)</span> | 
+          <span class="job-company">Enterprise Digital Ticketing (Ferry)</span>
+        </div>
+        <div class="job-date">2023 - Present</div>
+      </div>
+      <ul>
+        <li>Membangun dan memelihara sistem mikroservis menggunakan <b>FastAPI</b> (Python) dan <b>Spring Boot</b> (Java) yang menangani jutaan transaksi pemesanan tiket harian tanpa downtime.</li>
+        <li>Melakukan optimasi performa backend melalui integrasi Redis Caching dan antrian pesan (Message Broker).</li>
+        <li>Menyediakan titik akhir API yang aman (Secure REST API) untuk platform web dan mobile dengan latency di bawah 100ms.</li>
+      </ul>
+    </div>
+
+    <div class="job">
+      <div class="job-header">
+        <div>
+          <span class="job-title">Data Automation Specialist</span> | 
+          <span class="job-company">Telecommunications Industry</span>
+        </div>
+        <div class="job-date">2021 - 2023</div>
+      </div>
+      <ul>
+        <li>Merancang pipeline otomatis untuk mengekstraksi ratusan ribu baris raw data dari log jaringan menggunakan Python dan Pandas.</li>
+        <li>Membangun aplikasi Web Dashboard interaktif menggunakan <b>Streamlit</b> dan <b>Plotly</b> untuk memvisualisasikan metrik jaringan secara live, mempercepat deteksi anomali.</li>
+        <li>Mengirim laporan metrik utama berbentuk visual dan PDF langsung ke grup manajemen via WhatsApp API dan SMTP Email secara periodik.</li>
+      </ul>
+    </div>
+
+    <div class="section-title">Core Skills</div>
+    <div class="skills">
+      <span class="skill-tag">Python (FastAPI, Pandas)</span>
+      <span class="skill-tag">Java (Spring Boot)</span>
+      <span class="skill-tag">PostgreSQL & SQL</span>
+      <span class="skill-tag">Data Report Automation</span>
+      <span class="skill-tag">WhatsApp Bot / Webhooks</span>
+      <span class="skill-tag">Web Scraping</span>
+      <span class="skill-tag">RESTful API Design</span>
+      <span class="skill-tag">Cron / Scheduled Tasks</span>
+      <span class="skill-tag">Docker</span>
+    </div>
+  </div>
+
+  <script>
+    // Trigger print dialog automatically when accessed
+    window.onload = () => {
+      setTimeout(() => {
+        window.print();
+      }, 500);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@import "@fontsource/geist-sans";
+@import "@fontsource/geist-mono";
+
+@theme {
+  --font-sans: "Geist Sans", sans-serif;
+  --font-mono: "Geist Mono", monospace;
+  --color-offblack: #0a0a0a;
+  --color-surface: #141414;
+  --color-offwhite: #f9f9f9;
+  --color-border: #222222;
+  --color-accent: #0ea5e9;
+}
+
+:root {
+  background-color: var(--color-offblack);
+  color: var(--color-offwhite);
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-offblack);
+  color: var(--color-offwhite);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html { scroll-behavior: smooth; }
