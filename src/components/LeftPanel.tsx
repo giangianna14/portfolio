@@ -101,7 +101,7 @@ export function LeftPanel() {
         </nav>
       </div>
 
-      <div className="flex items-center gap-5 mt-12 lg:mt-0">
+      <div className="flex items-center gap-5 mt-12 lg:mt-0 lg:pb-24">
         <a href="https://github.com/giangianna14" target="_blank" rel="noreferrer" aria-label="GitHub" className="text-zinc-400 hover:text-[#f9f9f9] transition-colors">
           <GithubLogo size={24} />
         </a>
