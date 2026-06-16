@@ -4,8 +4,9 @@ export function Footer() {
       <p className="text-sm text-zinc-500 leading-relaxed max-w-sm">
         Desain diinspirasi oleh Brittany Chiang dan komunitas desain web. Dibangun dengan React, Tailwind CSS v4, dan Framer Motion. 
       </p>
-      <div className="font-mono text-xs text-zinc-600">
-        © {new Date().getFullYear()} Swa Gian.
+      <div className="font-mono text-xs text-zinc-600 flex items-center gap-2">
+        <span>© {new Date().getFullYear()} Gian Gianna.</span>
+        <span className="text-emerald-500/80">• Deployed via Dokploy CI/CD 🚀</span>
       </div>
     </footer>
   )
